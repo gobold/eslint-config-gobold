@@ -26,6 +26,7 @@ module.exports = {
     'no-mixed-spaces-and-tabs': 2,
     'no-multi-spaces': 2,
     'no-redeclare': 2,
+    'no-restricted-modules': [2, 'underscore', 'assert'],
     'no-self-compare': 1,
     'no-shadow-restricted-names': 2,
     'no-shadow': [2, {'builtinGlobals': true, 'hoist': 'all'}],
