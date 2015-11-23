@@ -11,7 +11,7 @@ module.exports = {
     'eol-last': 2,
     'eqeqeq': 2,
     'guard-for-in': 1,
-    'indent': [1, 2],
+    'indent': [1, 2, {'SwitchCase': 1}],
     'new-cap': 0,
     'new-parens': 2,
     'no-caller': 2,
@@ -48,9 +48,9 @@ module.exports = {
     'space-infix-ops': 1,
     'space-unary-ops': [2, { 'words': true, 'nonwords': false }],
     'strict': [1, 'global'],
-    'vars-on-top': 0,
     'use-isnan': 2,
     'valid-jsdoc': 1,
+    'vars-on-top': 0,
     'yoda': [1, 'never', { 'exceptRange': false }]
   }
 };
