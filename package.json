@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-gobold",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Bold Financial ESLint Config",
   "main": "index.js",
   "scripts": {
